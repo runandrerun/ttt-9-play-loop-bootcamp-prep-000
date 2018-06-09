@@ -40,10 +40,10 @@ end
 def play(board)
   turns = 9
   counter = 0
-  do counter += 1
+  loop do counter += 1
   turn(board)
-end
   if counter >= turns
     puts "The game has ended"
   end
+end
 end
