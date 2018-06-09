@@ -38,12 +38,12 @@ end
 # Define your play method below
 
 def play(board)
-  turns = 8
+  turns = 9
   counter = 0
   loop do 
     counter += 1
     turn(board)
-  if counter <= turns
+  if counter >= turns
     puts "The game has ended"
   end
 end
