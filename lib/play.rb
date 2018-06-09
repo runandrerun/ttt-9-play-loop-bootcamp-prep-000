@@ -42,6 +42,7 @@ def play(board)
   counter = 0
   do counter += 1
   turn(board)
+end
   if counter >= turns
     puts "The game has ended"
   end
