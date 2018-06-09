@@ -45,6 +45,7 @@ def play(board)
       turn(board)
     if counter >= turns
       puts "The game has ended"
+      break
     end
   end
 end
